@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+  
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Introduction to Artificial Gauge Fields</title>
+  <meta name="description" content="Here I’ll put some (links to) notes about artifical gauge fields for U of T’s PHY 2203, final seminar project. I’m putting it on this website just for fun.">
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
+  MathJax.Hub.Config({
+                     tex2jax: {
+                     inlineMath: [['$','$'], ['\\(','\\)']],
+                     processEscapes: true
+                     }
+                     });
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+                       TeX: { equationNumbers: { autoNumber: "AMS" } }
+                       });
+</script>
+
+<div style="display:none">
+\(
+\let\temp\phi
+\let\phi\varphi
+\let\varphi\temp
+\newcommand{\bmat}{\left[\begin{matrix}}
+\newcommand{\emat}{\end{matrix}\right]}
+\newcommand{\p}{\partial} # for speed
+\renewcommand{\d}
+\DeclareMathOperator{\up}{\ket{\uparrow}}
+\DeclareMathOperator{\down}{\ket{\downarrow}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\E}{\textbf{E}}
+\newcommand{\B}{\textbf{B}}
+\newcommand{\A}{\textbf{A}}
+\newcommand{\D}{\textbf{D}}
+\newcommand{\J}{\textbf{J}}
+\newcommand{\x}{\textbf{x}}
+\newcommand{\y}{\textbf{y}}
+\newcommand{\p}{\textbf{p}}
+\newcommand{\q}{\textbf{q}}
+\newcommand{\r}{\textbf{r}}
+
+\newcommand{\L}{\mathcal{L}}
+\newcommand{\H}{\mathcal{H}}
+\newcommand{\O}{\mathcal{O}}
+
+\renewcommand{\a}{\hat{a}}
+\renewcommand{\b}{\hat{b}}
+\renewcommand{\k}{\textbf{k}}
+
+
+\DeclareMathOperator{\O}{O}
+\DeclareMathOperator{\U}{U}
+\DeclareMathOperator{\SO}{SO}
+\DeclareMathOperator{\so}{\mathfrak{so}}
+\DeclareMathOperator{\SU}{SU}
+\DeclareMathOperator{\SL}{SL}
+\DeclareMathOperator{\GL}{GL}
+\DeclareMathOperator{\atan}{atan2}
+\DeclareMathOperator{\csch}{csch}
+\DeclareMathOperator{\sech}{sech}
+\DeclareMathOperator{\arccot}{arccot}
+\DeclareMathOperator{\arccsc}{arccsc}
+\DeclareMathOperator{\arcsec}{arcsec}
+\DeclareMathOperator{\arcsinh}{arcsinh}
+\DeclareMathOperator{\arccosh}{arccosh}
+\DeclareMathOperator{\arctanh}{arctanh}
+\DeclareMathOperator{\arcsech}{arcsech}
+\DeclareMathOperator{\arccsch}{arccsch}
+\DeclareMathOperator{\arccoth}{arccoth}
+\DeclareMathOperator{\Arg}{Arg}
+\DeclareMathOperator{\Log}{Log}
+\DeclareMathOperator{\sgn}{\text{sgn}}
+\DeclareMathOperator{\Res}{\text{Res}}
+\DeclareMathOperator{\Tr}{Tr}
+\let\Re\relax
+\DeclareMathOperator{\Re}{\text{Re}}
+\let\Im\relax
+\DeclareMathOperator{\Im}{\text{Im}}
+\)
+</div>
+
+<div style="display:none">
+    \(\require{cancel}\)
+    \(\require{physics}\)
+</div>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+                                                  google_ad_client: "ca-pub-7447253757666293",
+                                                  enable_page_level_ads: true
+                                                  });
+    </script>
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/agf/">
+  <link rel="alternate" type="application/rss+xml" title="Phi<sup>2</sup>" href="http://localhost:4000/feed.xml">
+      <script>
+          function myFunction(name) {
+              var x = document.getElementById(name);
+              if (x.style.display === "block") {
+                  x.style.display = "none";
+              } else {
+                  x.style.display = "block";
+              }
+          }
+      </script>
+</head>
+
+
+  <head>
+    <meta charset="utf-8">
+    <title>Introduction to Artificial Gauge Fields</title>
+    <!-- <link rel="stylesheet" href="/assets/css/styles.css"> -->
+  </head>
+  <body>
+    <!--
+<nav>
+ 
+  <a href="/" > 
+  home
+  </a>
+   
+  <a href="/about.html" > 
+  about
+  </a>
+   
+  <a href="/blog.html" > 
+  blog
+  </a>
+  
+<!--  
+    <a href="/" >Home</a>
+    <a href="/about.html" >About</a>
+    -- 
+</nav> 
+-->
+<aside>
+	<div class="container">
+		<nav>
+			<ul>
+ 
+<li><a href="/">Home</a></li>
+  
+<li><a href="/about.html">About</a></li>
+  
+<li><a href="/blog.html">Blog</a></li>
+ 
+<!--<li><a href="/blog">Blog</a>--></li>
+			</ul>
+			</li>
+			</ul>
+		</nav>
+	</div>
+</aside>
+
+<header>
+	<h1><a href="http://localhost:4000">Phi<sup>2</sup></a></h1>
+</header>
+
+    <h1>Introduction to Artificial Gauge Fields</h1>
+<p> 01 Aug 2020 - </p>
+
+<p>Here I’ll put some (links to) notes about artifical gauge fields for U of T’s PHY 2203, final seminar project. I’m putting it on this website just for fun.</p>
+
+<p>I’ll also need to figure out how to do references (or at least a bibliography) in markdown.</p>
+
+<script type="math/tex; mode=display">\vec \Omega = \bmat \Omega_R \\ 0 \\ -\delta \emat</script>
+
+
+  </body>
+</html>

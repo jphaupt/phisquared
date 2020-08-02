@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phi&lt;sup&gt;2&lt;/sup&gt;</title>
+    <description>still just messing around, will update</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 01 Aug 2020 18:37:41 -0700</pubDate>
+    <lastBuildDate>Sat, 01 Aug 2020 18:37:41 -0700</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Welcome</title>
+        <description>&lt;p&gt;Hello there, and welcome to my website. At the time of writing, you will find that it is barren but hopefully it does not stay this way for long.&lt;/p&gt;
+
+&lt;p&gt;If you are interested in physics, computer science, and mathematics (and the interfaces of these fields), hopefully you will also find my content interesting. I shall also occasionally indulge myself and post about things outside my usual content (e.g. if I am learning a new hobby), but I’ll restrict that to the blog.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-can-i-find-here&quot;&gt;What can I find here?&lt;/h2&gt;
+
+&lt;p&gt;I am just starting to write a basic curriculum from my years as an undergraduate in physics, mathematics, and computer science, and will post that here. These will be focused, of course, on the areas of the fields that interest me most, but I also want to cover the absolute necessities (e.g. electromagnetism).&lt;/p&gt;
+
+&lt;p&gt;I will focus on:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Physics: Fundamentals (mechanics, electromagnetism, etc), condensed matter theory, quantum optics.&lt;/li&gt;
+  &lt;li&gt;Computer Science: Programming habits (I find good programming habits is &lt;em&gt;seriously&lt;/em&gt; lacking in academic code), machine learning, numerical methods, computational optimisation.&lt;/li&gt;
+  &lt;li&gt;Mathematics: primarily an applied focus (calculus, numerical analysis, chaos theory, topology).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In my blog, I will focus on:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Problems that are interesting either because of their solution or because of the path getting there.&lt;/li&gt;
+  &lt;li&gt;Programming and computer stuff.&lt;/li&gt;
+  &lt;li&gt;Work and study stuff (light-trapping, photonic crystals, photovoltaics, …).&lt;/li&gt;
+  &lt;li&gt;New hobbies I am trying out (e.g. 3D animation).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I hope you find the content interesting and revisit! See you then!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Aug 2020 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2020/08/01/hello_world.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/08/01/hello_world.html</guid>
+        
+        <category>introduction,</category>
+        
+        <category>julia,</category>
+        
+        <category>c++,</category>
+        
+        <category>python,</category>
+        
+        <category>physics,</category>
+        
+        <category>about</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

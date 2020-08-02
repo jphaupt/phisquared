@@ -1,0 +1,22 @@
+
+# site settings 
+# can obtain via, e.g. {{ site.title }}, {{site.email}} etc
+title: Phi<sup>2</sup>
+email: jphaupt@protonmail.com
+description: still just messing around, will update
+baseurl: 'phisquared'
+url: 'https://jphaupt.github.io'
+github_username: jphaupt
+
+sass:
+  sass_dir: _sass
+
+collections: 
+  agf: #artificial gauge field
+    output: true
+  
+
+# Build settings
+markdown: kramdown
+kramdown:
+   math_engine: mathjax
