@@ -6,7 +6,9 @@ permalink: /about/
 
 # About page
 
-This is where I'll be writing some stuff about the website and myself. See [this blog post](blog/2020-06-30-hello_world.md) for a brief explanation. 
+TODO update this page, remove the blog (at least for now)
+
+This is where I'll be writing some stuff about the website and myself. See [this blog post](../blog/2020-06-30-hello_world) for a brief explanation. 
 <!---
 TODO: make title area smaller in y-direction.
 TODO: make margins for main text smaller 

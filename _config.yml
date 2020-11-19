@@ -1,11 +1,12 @@
 
 # site settings 
 # can obtain via, e.g. {{ site.title }}, {{site.email}} etc
+# home page is url+baseurl (+/index I think is optional)
 title: Phi<sup>2</sup>
 email: jphaupt@protonmail.com
 description: still just messing around, will update
-baseurl: '/phisquared'
-url: 'https://jphaupt.github.io'
+baseurl: '' # '/phisquared' # TODO 
+url: "http://localhost:4000" # 'https://jphaupt.github.io'
 github_username: jphaupt
 
 sass:
@@ -13,6 +14,8 @@ sass:
 
 collections: 
   agf: #artificial gauge field
+    output: true
+  introcompphys: # introduction to computational physics
     output: true
   
 
