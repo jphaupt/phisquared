@@ -35,7 +35,7 @@ See also [this stack exchange thread](https://mattermodeling.stackexchange.com/q
 ## Resources 
 In the main page you will see a list of sources/references. These are nice if you want to learn more or if what I wrote doesn't make sense. 
 
-To learn install Python, I recommend using an [Anaconda](https://docs.anaconda.com/anaconda/install/) installation. 
+To install Python, I recommend using an [Anaconda](https://docs.anaconda.com/anaconda/install/) installation. 
 
 To code, you could just use a notepad and a terminal, but it would probably be easier if you use a simple IDE like [Spyder](https://www.spyder-ide.org/) (comes with Anaconda). I also really like [Visual Studio Code](https://code.visualstudio.com/), though it requires more configuring as it is more general purpose.[^3]
 

@@ -11,6 +11,8 @@ In this course, I will be focusing on scientific computing methods useful for ph
 
 I will deviate slightly from the typical presentation of a "computational physics" course by emphasising details usually seen in a computer science class, such as modularity and good coding practices, as well as error and run-time analysis. While these topics might not be the most interesting to physicists, I think they are very important to learn early on. I will try to integrate them into the greater framework of the course to make learning them not so mind-numbing. That said, I will not go so much in detail as would be done in a computer science (or worse yet, maths) course. 
 
+Elementary knowledge of calculus (up to Taylor series) and some knowledge of linear algebra is assumed, though you might be able to study these in parallel. Knowledge of physics is not necessary but beneficial, at least for understanding motivations and examples. 
+
 My goal is to be informal and pragmatic. 
 
 # SYLLABUS FOR INTRODUCTION TO COMPUTATIONAL PHYSICS "COURSE"
@@ -35,9 +37,9 @@ Main sources/references (all worth checking out!):
 
 Introduction to Scientific Computing 
 - [Introduction to Programming with Python](sec1_1) 
-- [Introduction to Numerics](sec1_2)
+- [Introduction to Numerics](sec1_2) TODO case study with linear regression
 - [Good Programming Habits](sec1_3)
-- [Tutorial](sec1_tut)
+- [Tutorial](sec1_tut) TODO data fit to nuclear decay? Bonus: why is the exponential not sufficient? 
 
 ## TODO coming soon (everything below!)
 
@@ -79,4 +81,4 @@ Extra topics
     - really nice for experimentalists
 - symbolic computing (sympy)
 - link to more advanced course (focused on condensed matter and chemistry)
-- what next? (mention algorithms and data structures books, not directly useful for physicists but the ideas could be useful)
+- what next? (mention algorithms and data structures books, not directly useful for physicists but the ideas could be useful). I plan on doing an intro to algorithms course some time anyway, though it's not high on my list.

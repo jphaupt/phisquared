@@ -5,7 +5,7 @@ author: jph
 init_date: 23 Nov 2020
 ---
 
-There are _a lot_ of resources on Python out there. Simply search the web for "introduction to python" or "numpy" or "python for physicists" or the similar. Because of this, I'll keep this section brief so that you may refer to it quickly when just starting. 
+There are _a lot_ of resources for Python out there. Simply search the web for "introduction to python" or "numpy" or "python for physicists" or similar. Because of this, I'll keep this section brief so that you may refer to it quickly when just starting. 
 
 Here, as in the remainder of the course, I assume you have Python 3 installed along with packages from Anaconda (in particular, numpy, matplotlib, and scipy).
 
