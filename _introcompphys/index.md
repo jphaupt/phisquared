@@ -37,7 +37,7 @@ Main sources/references (all worth checking out!):
 
 Introduction to Scientific Computing 
 - [Introduction to Programming with Python](sec1_1) 
-- [Introduction to Numerics](sec1_2) TODO case study with linear regression
+- [Introduction to Errors](sec1_2) TODO case study with linear regression
 - [Good Programming Habits](sec1_3)
 - [Tutorial](sec1_tut) TODO data fit to nuclear decay? Bonus: why is the exponential not sufficient? 
 
@@ -50,9 +50,15 @@ Introduction to Programming and Numerics
 - catastrophic cancellation error, other error analysis
 - also introduce basic not-so-important methods like interpolation
     - use as an entry point into modularity and git, proper Python documentation
+    - debugging
 - first application: least squares
 - TDD
     - try to encourage good practice throughout the rest of the "course" as well 
+    - discuss pseudocode (see PHY 407 notes)
+- have some kind of "tutorial" at the end (both here and all other sections at the end). This time maybe do a simple linear regression (do radioactive decay, maybe also introduce that problem of the background radiation like in PHYS101?)? Or maybe an oscillator and plot it? Or orbit? idk 
+    - Then we can reintroduce radioactivity later but solve it via Euler method
+    - I think maybe both? The oscillator seems much easier and better as an intro.
+    - The radiation example also shows some modelling error 
 
 Root finding 
 - use as a basic starting place for error and runtime analysis
@@ -73,7 +79,6 @@ Extra topics
 - Monte Carlo (do classical, but mention QMC)
     - be sure to mention setting a seed for testing purposes!
     - application to the Ising model
-- some matrix algebra, eigenvalue problem (mostly just introduce packages)
 - non-technical overview of machine learning in physics 
     - some optimisation?
     - knowing Python sets you right up for this
