@@ -46,7 +46,7 @@ Python comes equipped with basic mathematical operations, like addition and subt
 
 Another very important operation is _assignment_, for which we use the equals sign `=`. For this, we also need to introduce variables. We can define a variable, say `x` by the line `x=3` (sets the _variable_ `x` to 3). Note, however, that `x` is not fixed and we can later write `x=10` for example. Furthermore, we can do such operations like `x=x-2` meaning "subtract 2 from `x`" (there is also the shorthand `x-=2`). 
 
-We are not just restricted to integers, however. We could just as easily have said `x=3.3` (a float) or even `x=True` (a _boolean_, either `True` or `False`). Some boolean operations you might recognise from logic are `and`, `or`, and `not` which do what you would expect (`True and False` evaluates to `True`, but `True or False` evaluates to `False` etc). You can also get a boolean from numbers by equality `==`, e.g. if you set `x=3` earlier then `x==3` evaluates to `True`, but `x==3.3` to `False`. (A shorthand for `not equals` is `!=`). 
+We are not just restricted to integers, however. We could just as easily have said `x=3.3` (a float) or even `x=True` (a _boolean_, either `True` or `False`). Some boolean operations you might recognise from logic are `and`, `or`, and `not` which do what you would expect (`True and False` evaluates to `True`, but `True or False` evaluates to `False` etc). You can also get a boolean from numbers by equality `==`, e.g. if you set `x=3` earlier then `x==3` evaluates to `True`, but `x==3.3` to `False`. (A shorthand for "not equals" is `!=`). 
 
 Some other useful constructs are `if` statements and `for` loops. Both of these 
 
@@ -65,6 +65,10 @@ TODO introduce things you _could_ do, then say just use numpy!
 ## Plotting in Python 
 
 TODO introduce Matplotlib
+
+# Jupyter (IPython) Notebooks 
+
+TODO explain Jupyter, and that I will be using them much of the time, esp for tutorials. 
 
 <hr>
 

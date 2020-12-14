@@ -59,6 +59,10 @@ Introduction to Programming and Numerics
     - Then we can reintroduce radioactivity later but solve it via Euler method
     - I think maybe both? The oscillator seems much easier and better as an intro.
     - The radiation example also shows some modelling error 
+    - Maybe interpolation, then plot it? 
+    - some kind of modularisation exercise? 
+    - ** USE DOXYGEN ** 
+        - first gotta learn how that works for python lol
 
 Root finding 
 - use as a basic starting place for error and runtime analysis

@@ -131,6 +131,8 @@ We should also think about the errors in this problem. There will certainly be r
 
 [Next Lesson](sec1_3)
 
+[Previous Lesson](sec1_1)
+
 <hr> 
 
 
