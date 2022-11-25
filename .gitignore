@@ -1,0 +1,17 @@
+_site
+_site/
+_site/**
+_site/**/*
+_site/*
+.jekyll-cache/*
+.jekyll-cache/**
+.jekyll-cache/**/*
+.jekyll-cache/
+_site/404.html
+_site/about.html
+_site/blog.html
+_site/book-list.html
+_site/feed.xml
+_site/index.html
+_site/2020/08/01/hello_world.html
+_site/agf/index.html

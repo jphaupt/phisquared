@@ -39,7 +39,7 @@ TODO [^test]
 ## Modelling Error 
 TODO maybe discuss Taylor series and the derivative? 
 
-TODO also mention real world error (see OLS). Could also just have the wrong function of the job (using linear regression for something that's quadratic, etc.)
+TODO also mention real world error (see OLS). Could also just have the wrong function of the job (using linear regression for something that's quadratic, etc.), or sometimes you are using an incomplete theory (maybe you shouldn't neglect friction, maybe you are using classical mechanics for quantum mechanics, etc)
 
 ## Ordinary Least Squares Linear Regression
 

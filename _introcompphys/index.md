@@ -7,7 +7,7 @@ author: jph
 
 Welcome to my introductory "course" (notes) on computational physics! This is my first attempt at writing such a "course," so it might not be as complete as it should be. Please do not hesitate to email me about mistakes or something that is not entirely clear. The syllabus and appropriate links are below. 
 
-In this course, I will be focusing on scientific computing methods useful for physicists (which by extension should be useful to other quantitative science fields). I will start with an introduction to one of the easiest languages out there to learn: Python (which is still very powerful and extremely popular!). Next, by considering topics of interest for physicists, you will learn techniques for solving problems computationally, culminating in the solution of partial differential equations. I will try to present different subfields, but as I am just doing this in my spare time chances are I will mostly be presenting problems from my own field or of interest specifically to me. 
+In this course, I will be focusing on scientific computing methods useful for physicists (which by extension should be useful to other quantitative science fields). I will start with an introduction to one of the easiest languages out there to learn: Python (which is still very powerful and extremely popular!). Next, by considering topics of interest for physicists, you will learn techniques for solving problems computationally, culminating in the solution of partial differential equations. I will try to present different subfields, but as I am just doing this in my spare time chances are I will mostly be presenting problems from my own field or of interest specifically to me. I will also try to do some statistical problems, which may of interest to experimentalists. 
 
 I will deviate slightly from the typical presentation of a "computational physics" course by emphasising details usually seen in a computer science class, such as modularity and good coding practices, as well as error and run-time analysis. While these topics might not be the most interesting to physicists, I think they are very important to learn early on. I will try to integrate them into the greater framework of the course to make learning them not so mind-numbing. That said, I will not go so much in detail as would be done in a computer science (or worse yet, maths) course. 
 
@@ -63,7 +63,11 @@ Introduction to Programming and Numerics
     - some kind of modularisation exercise? 
     - ** USE DOXYGEN ** 
         - first gotta learn how that works for python lol
+        - I think I'll rather use Sphinx...
+    - maybe the logistic map?
 
+Maybe put all of this into one section? 
+{
 Root finding 
 - use as a basic starting place for error and runtime analysis
 - conditioning
@@ -71,13 +75,16 @@ Root finding
 Derivatives 
 
 Integrals
+}
 
 ODES 
 - some interesting applications, like 
 
 PDEs (application to fluid dynamics/Navier-Stokes)
+- only basics
 
 Improving your code, parallelisation (Numba)
+- program speed up (Numba, extra: MPI, OpenMP, CUDA) using Python libraries (e.g. mpi4py)
 
 Extra topics
 - Monte Carlo (do classical, but mention QMC)
@@ -91,3 +98,5 @@ Extra topics
 - symbolic computing (sympy)
 - link to more advanced course (focused on condensed matter and chemistry)
 - what next? (mention algorithms and data structures books, not directly useful for physicists but the ideas could be useful). I plan on doing an intro to algorithms course some time anyway, though it's not high on my list.
+
+[test link](fit.ipynb)

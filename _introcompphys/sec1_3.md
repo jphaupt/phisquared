@@ -9,7 +9,7 @@ It is my experience that many physicists, as well as other scientists and engine
 
 Scientific software can be large, complicated, and subtle. If you want to share your code with collaborators, or look at it a few months down the line and your code does not follow decent coding practices, you are likely to get someone very frustrated. Perfect, fast code that no one can understand is not nearly as good as slower not-quite-there code with excellent documentation, modularity, with thorough testing. You are likely to recall old code, especially if in the context of a larger project, or build on it later. These things are difficult to predict. 
 
-In section I shall briefly outline some of the most important coding practices, which will help you organise your work, and systemically approach tasks, in addition to having your code legible by not just yourself but other people. 
+In this section I shall briefly outline some of the most important coding practices, which will help you organise your work, and systemically approach tasks, in addition to having your code legible by not just yourself but other people. 
 
 At first, many of these techniques may seem like a painful waste of time, but as your code gets more complex being familiar with these will become invaluable. Not only will you be able to write more reliable, understandable code, but chances are you will also be able to code faster and will run into fewer road bumps. Future you will be thankful for learning this. 
 
